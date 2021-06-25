@@ -1,0 +1,21 @@
+body {
+	color: white;
+	background-color: black;
+}
+
+/* STYLING LINKS */
+
+a {
+	color: white;
+}
+
+a:visited {
+	color: lightgray;
+}
+
+a:active {
+	color: gray;
+}
+
+/* END OF LINKS STYLING */
+
