@@ -1,6 +1,11 @@
 body {
 	color: white;
 	background-color: black;
+	font-size: xx-large ;
+}
+
+h1, p {
+	text-align: center;
 }
 
 /* STYLING LINKS */
@@ -18,4 +23,3 @@ a:active {
 }
 
 /* END OF LINKS STYLING */
-

@@ -1,10 +1,15 @@
 body {
 	color: white;
 	background-color: black;
+	font-size: xx-large ;
 }
 
-/* STYLING LINKS */
+h1, p {
+	text-align: center;
+}
 
+
+/* LINKS */
 a {
 	color: white;
 }
@@ -16,5 +21,27 @@ a:visited {
 a:active {
 	color: gray;
 }
+/* FIN: LINKS*/
 
-/* END OF LINKS STYLING */
+.centre {
+	text-align: center;
+}
+
+/* BOUTONS DE NAVIGATION */
+table {
+	width: 60%;
+	margin: 0 auto;
+}
+
+td {
+	width: 33%;
+}
+
+#colonne-gauche {
+	text-align: right;
+}
+
+#colonne-centre {
+	text-align: center;
+}
+/* FIN: BOUTONS DE NAVIGATION */
