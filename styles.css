@@ -55,5 +55,10 @@ a:active {
 	float: left;
 }
 
+/* LISTES */
+ul {
+	list-style-type: circle;
+}
+
 
 
