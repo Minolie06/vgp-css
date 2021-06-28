@@ -4,12 +4,21 @@ body {
 	font-size: xx-large ;
 }
 
-h1, p {
+.affiche {
+	width: 400px;
+}
+
+/* ALIGNEMENT */
+h1, p, .centre {
 	text-align: center;
 }
 
+.droite {
+	text-align: right;
+}
+/* FIN: ALIGNEMENT */
 
-/* LINKS */
+/* LIENS */
 a {
 	color: white;
 }
@@ -21,11 +30,7 @@ a:visited {
 a:active {
 	color: gray;
 }
-/* FIN: LINKS*/
-
-.centre {
-	text-align: center;
-}
+/* FIN: LIENS */
 
 /* BOUTONS DE NAVIGATION */
 table {
@@ -35,13 +40,5 @@ table {
 
 td {
 	width: 33%;
-}
-
-#colonne-gauche {
-	text-align: right;
-}
-
-#colonne-centre {
-	text-align: center;
 }
 /* FIN: BOUTONS DE NAVIGATION */

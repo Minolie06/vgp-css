@@ -8,8 +8,7 @@ h1, p {
 	text-align: center;
 }
 
-/* STYLING LINKS */
-
+/* LIENS */
 a {
 	color: white;
 }
@@ -21,5 +20,4 @@ a:visited {
 a:active {
 	color: gray;
 }
-
-/* END OF LINKS STYLING */
+/* FIN: LIENS */
