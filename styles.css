@@ -4,8 +4,14 @@ body {
 	font-size: xx-large ;
 }
 
+/* IMAGES */
 .affiche {
 	width: 400px;
+}
+
+#index img {
+	height: 300px;
+	width: 300px;
 }
 
 /* ALIGNEMENT */
@@ -16,7 +22,6 @@ h1, p, .centre {
 .droite {
 	text-align: right;
 }
-/* FIN: ALIGNEMENT */
 
 /* LIENS */
 a {
@@ -30,15 +35,25 @@ a:visited {
 a:active {
 	color: gray;
 }
-/* FIN: LIENS */
 
-/* BOUTONS DE NAVIGATION */
-table {
+/* TABLEAU */
+#index {
+	width: 100%;
+}
+
+.bouton-nav {
 	width: 60%;
 	margin: 0 auto;
 }
 
-td {
-	width: 33%;
+.ligne {
+	clear: left;
 }
-/* FIN: BOUTONS DE NAVIGATION */
+
+.boite {
+	width: 33.33%;
+	float: left;
+}
+
+
+
