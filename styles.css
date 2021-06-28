@@ -1,0 +1,59 @@
+body {
+	color: white;
+	background-color: black;
+	font-size: xx-large ;
+}
+
+/* IMAGES */
+.affiche {
+	width: 400px;
+}
+
+#index img {
+	height: 300px;
+	width: 300px;
+}
+
+/* ALIGNEMENT */
+h1, p, .centre {
+	text-align: center;
+}
+
+.droite {
+	text-align: right;
+}
+
+/* LIENS */
+a {
+	color: white;
+}
+
+a:visited {
+	color: lightgray;
+}
+
+a:active {
+	color: gray;
+}
+
+/* TABLEAU */
+#index {
+	width: 100%;
+}
+
+.bouton-nav {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.ligne {
+	clear: left;
+}
+
+.boite {
+	width: 33.33%;
+	float: left;
+}
+
+
+
