@@ -60,5 +60,13 @@ ul {
 	list-style-type: circle;
 }
 
+/* BANDEAU */
+.bandeau {
+	background-color: white;
+}
 
+.bandeau a, .bandeau:visited, .bandeau:active {
+	color: black;
+	margin: 0 10%;
+}
 
