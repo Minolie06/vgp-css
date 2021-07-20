@@ -70,3 +70,37 @@ ul {
 	margin: 0 10%;
 }
 
+/* FORMULAIRES */
+
+.bas_de_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.contact {
+	width: 60%;
+	height: 70vh;
+	margin: 0 auto;
+}
+
+.contact input[type="text"], .contact input[type="number"]{
+	width: 33%;
+	margin: 0 10px 20px 10px;
+	display: inline;
+}
+
+.contact textarea {
+	display: block;
+	width: calc(66% + 39px);
+	margin: 0 auto;
+	height: 300px;
+	max-height: 65%;
+	resize: vertical;
+}
+
+.contact input[type="submit"] {
+	width: 10%;
+	height: 10%;
+	margin: 20px auto;
+}
