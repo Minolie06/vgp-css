@@ -84,9 +84,10 @@ ul {
 	margin: 0 auto;
 }
 
-.contact input[type="text"] {
+.contact input[type="text"], .contact input[type="number"]{
 	width: 33%;
 	margin: 0 10px 20px 10px;
+	display: inline;
 }
 
 .contact textarea {
@@ -94,7 +95,7 @@ ul {
 	width: calc(66% + 39px);
 	margin: 0 auto;
 	height: 300px;
-	max-height: 70%;
+	max-height: 65%;
 	resize: vertical;
 }
 
